@@ -1,14 +1,12 @@
 ## Node js version && Installation 
 
-v22.1.0
-# installs fnm (Fast Node Manager)
-winget install Schniz.fnm
-# download and install Node.js
-fnm use --install-if-missing 22
+v22.1.0 
+
+**https://nodejs.org/en/download/package-manager/current**
+
 # verifies the right Node.js version is in the environment
 node -v # should print `v22.2.0`
-# verifies the right NPM version is in the environment
-npm -v # should print `10.7.0`
+
 
 ## TypeScript Version
 
