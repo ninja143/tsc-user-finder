@@ -10,7 +10,7 @@ const showResultUI = (singleUser) => {
             <hr />
             <div class="card-footer">
                 <img src="${avatar_url}" alt="${login}" />
-                <a href="${url}"> Github </a> 
+                <a href="${url}"> <i>${login}</i> - Github </a> 
             </div>
         </div>
         `);

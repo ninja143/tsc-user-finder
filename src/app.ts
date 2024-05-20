@@ -6,7 +6,6 @@ const thirdPartyUrl = "https:api.github.com/users";
 // Lets define the contract 
 interface UserData {
     id: number;
-    name: string;
     login: string;
     avatar_url: string;
     location: string;
@@ -22,7 +21,7 @@ const showResultUI = (singleUser: UserData ) => {
             <hr />
             <div class="card-footer">
                 <img src="${avatar_url}" alt="${login}" />
-                <a href="${url}"> Github </a> 
+                <a href="${url}"> <i>${login}</i> - Github </a> 
             </div>
         </div>
         `
