@@ -16,7 +16,10 @@ I have created this project on latest verion.
 npm install typescript@5.4.5
 
 # Project Setup 
+
 **Project Setup :**  git clone 
-  **Run typescript : ** tsc -w
-Run project on local Server(on any port) to view the dynamic html page created as index.html
+
+**Run typescript :** tsc -w
+
+**Run project** on local Server(on any port) to view the dynamic html page created as index.html
 127.0.0.1:5055/root/index.html (if you use vs code - install live server and run project in live server easily)
